@@ -1,0 +1,717 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "MLB v6 Trial",
+        "description": "Test our API services using our API Sandbox!    Enter your sport specific TRIAL KEY in the box below. Sportradar's MLB API",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.sportradar.com\/"
+    ],
+    "paths": {
+        "\/mlb-t6\/games\/{year}\/{month}\/{day}\/boxscore{format}": {
+            "get": {
+                "summary": "Obtain Daily Boxscores for MLB for a given season....",
+                "description": "Obtain Daily Boxscores for MLB for a given season. NOTE: The 2012 sample data is an abbreviated season.",
+                "operationId": "DailyBoxscoreMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "month",
+                        "in": "path",
+                        "description": "The month (format: MM)"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The day (format: DD)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/{year}\/{month}\/{day}\/changes{format}": {
+            "get": {
+                "summary": "Obtain changes made to previously closed events, t...",
+                "description": "Obtain changes made to previously closed events, team rosters, or player profiles for a given day.",
+                "operationId": "DailyChangeLogMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "month",
+                        "in": "path",
+                        "description": "The month (format: MM)"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The day (format: DD)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/games\/{year}\/{month}\/{day}\/schedule{format}": {
+            "get": {
+                "summary": "Obtain Schedule for the MLB for a given day. NOTE:...",
+                "description": "Obtain Schedule for the MLB for a given day. NOTE: The 2012 sample data is an abbreviated season.",
+                "operationId": "DailyScheduleMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "month",
+                        "in": "path",
+                        "description": "The month (format: MM)"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The day (format: DD)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/games\/{year}\/{month}\/{day}\/summary{format}": {
+            "get": {
+                "summary": "Obtain Daily Summary for the MLB for a given day. ...",
+                "description": "Obtain Daily Summary for the MLB for a given day. NOTE: The 2012 sample data is an abbreviated season.",
+                "operationId": "DailySummaryMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "month",
+                        "in": "path",
+                        "description": "The month (format: MM)"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The day (format: DD)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/{year}\/{month}\/{day}\/transactions{format}": {
+            "get": {
+                "summary": "Obtain information concerning all transactions tak...",
+                "description": "Obtain information concerning all transactions taking place on a given MLB defined day.",
+                "operationId": "DailyTransactionsMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "month",
+                        "in": "path",
+                        "description": "The month (format: MM)"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The day (format: DD)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/games\/{event_id}\/boxscore{format}": {
+            "get": {
+                "summary": "Obtain a boxscore for a specific MLB game.",
+                "description": "",
+                "operationId": "GameBoxscoreMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "event_id",
+                        "in": "path",
+                        "description": "The UUID of the event, found in the schedule feeds"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/games\/{event_id}\/summary{format}": {
+            "get": {
+                "summary": "Obtain a game summary for a specific MLB game.",
+                "description": "",
+                "operationId": "GameSummaryMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "event_id",
+                        "in": "path",
+                        "description": "The UUID of the event, found in the schedule feeds"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/glossary{format}": {
+            "get": {
+                "summary": "Obtain the pitch types, player statuses, pitch out...",
+                "description": "Obtain the pitch types, player statuses, pitch outcomes, runner outcomes, game status and postseason game IDs.",
+                "operationId": "GlossaryMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/injuries{format}": {
+            "get": {
+                "summary": "Obtain information concerning all current injuries...",
+                "description": "Obtain information concerning all current injuries across the league.",
+                "operationId": "InjuriesMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/depth_charts{format}": {
+            "get": {
+                "summary": "Obtain league depth charts for MLB.",
+                "description": "",
+                "operationId": "LeagueDepthChartMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/hierarchy{format}": {
+            "get": {
+                "summary": "Obtain list of MLB teams.",
+                "description": "",
+                "operationId": "LeagueHierarchyMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/leaders\/statistics{format}": {
+            "get": {
+                "summary": "Obtain leaders for a given year.",
+                "description": "",
+                "operationId": "LeagueLeadersMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/games\/{year}\/{mlb_season}\/schedule{format}": {
+            "get": {
+                "summary": "Obtain Schedule for the MLB for a given season. NO...",
+                "description": "Obtain Schedule for the MLB for a given season. NOTE: The 2012 sample data is an abbreviated season.",
+                "operationId": "LeagueScheduleMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/games\/{event_id}\/pbp{format}": {
+            "get": {
+                "summary": "Obtain the play-by-play data for a specific MLB ga...",
+                "description": "Obtain the play-by-play data for a specific MLB game.",
+                "operationId": "PlayByPlayMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "event_id",
+                        "in": "path",
+                        "description": "The UUID of the event, found in the schedule feeds"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/players\/{player_id}\/profile{format}": {
+            "get": {
+                "summary": "Obtain a profile for a given player.",
+                "description": "",
+                "operationId": "PlayerProfileMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "player_id",
+                        "in": "path",
+                        "description": "Player ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/rankings{format}": {
+            "get": {
+                "summary": "Obtain league and division rank for each team, inc...",
+                "description": "Obtain league and division rank for each team, including post season clinching status (available beginning with 2014 season)",
+                "operationId": "RankingsMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/teams\/{team_id}\/splits{format}": {
+            "get": {
+                "summary": "Obtain season splits for MLB -- Not available pre-...",
+                "description": "Obtain season splits for MLB -- Not available pre-2015",
+                "operationId": "SeasonalSplitsMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "team_id",
+                        "in": "path",
+                        "description": "The ID of a given team, found in the league hierarchy feed"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/teams\/{team_id}\/statistics{format}": {
+            "get": {
+                "summary": "Obtain season statistics for MLB",
+                "description": "",
+                "operationId": "SeasonalStatisticsMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "team_id",
+                        "in": "path",
+                        "description": "The ID of a given team, found in the league hierarchy feed"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/series\/{year}\/{mlb_season}\/schedule{format}": {
+            "get": {
+                "summary": "Obtain Series Schedule for the MLB for the postsea...",
+                "description": "Obtain Series Schedule for the MLB for the postseason.",
+                "operationId": "SeriesScheduleMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/series\/{series_id}\/teams\/{team_id}\/statistics{format}": {
+            "get": {
+                "summary": "Obtain series statistics for a given series. Pleas...",
+                "description": "Obtain series statistics for a given series. Please note that this feed will not return data until the 2017 playoffs begin",
+                "operationId": "SeriesStatisticsMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "series_id",
+                        "in": "path",
+                        "description": "The series id, found in the Series Schedule"
+                    },
+                    {
+                        "name": "team_id",
+                        "in": "path",
+                        "description": "The ID of a given team, found in the league hierarchy feed"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/series\/{series_id}\/summary{format}": {
+            "get": {
+                "summary": "Obtain series summary info for a given series. Ple...",
+                "description": "Obtain series summary info for a given series. Please note that this feed will not return data until the 2017 playoffs begin",
+                "operationId": "SeriesSummaryMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "series_id",
+                        "in": "path",
+                        "description": "The series id, found in the Series Schedule"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/standings{format}": {
+            "get": {
+                "summary": "Obtain Standings for the MLB for a given season. S...",
+                "description": "Obtain Standings for the MLB for a given season. Standing data is not valid for 2012 as we do not have a full season available.",
+                "operationId": "StandingsMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "path",
+                        "description": "The season (year)"
+                    },
+                    {
+                        "name": "mlb_season",
+                        "in": "path",
+                        "description": "The part of the season(PRE, REG, PST)"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/teams\/{team_id}\/depth_chart{format}": {
+            "get": {
+                "summary": "Obtain team depth chart information.",
+                "description": "",
+                "operationId": "TeamDepthChartMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "team_id",
+                        "in": "path",
+                        "description": "The ID of a given team, found in the league hierarchy feed"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/teams\/{team_id}\/profile{format}": {
+            "get": {
+                "summary": "Obtain team profile information.",
+                "description": "",
+                "operationId": "TeamProfileMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "team_id",
+                        "in": "path",
+                        "description": "The ID of a given team, found in the league hierarchy feed"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/mlb-t6\/league\/venues{format}": {
+            "get": {
+                "summary": "Obtain venue data for the current season.",
+                "description": "",
+                "operationId": "VenuesMLB",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
