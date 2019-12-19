@@ -1,0 +1,746 @@
+{
+    "id": "4588503790d05e1ccc0824bd8b0db234",
+    "name": "American Football Trial",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "a9afad817776c6c4436306368d19e224",
+            "name": "Provides information for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/competitors\/{competitor_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "4b736cacf8029a9cca8d719eaef8ce24",
+            "name": "Provides past match results for a given competitor...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/competitors\/{competitor_id}\/results{format}",
+            "description": "Provides past match results for a given competitor",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "f1592a64ce430cb54406281a97cc1e15",
+            "name": "Provides the schedule for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/competitors\/{competitor_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "7fbee3bba8784fb089160f6aa4abfd88",
+            "name": "Provides the match scoring for all matches played ...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/schedules\/{year-}{month-}{day}\/results{format}",
+            "description": "Provides the match scoring for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "0ad096358109381336a259fbc42bf8d3",
+            "name": "Provides the schedule for all matches played on a ...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
+            "description": "Provides the schedule for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "232ef27ab646da22588abe5f5d531f0a",
+            "name": "Provides team versus team data",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id1",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "competitor_id2",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "761c3b1a8814b449d2e15ab0fff4f245",
+            "name": "Provides player profile information",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/players\/{player_id1}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "player_id1",
+                    "description": "The ID of the player, found in Competitor Profile endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "6622279bb12d28dfbc159854b1af85c2",
+            "name": "Provides a list of matches in progress",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/schedules\/live\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "a67e661992247996b95585c02b0a692a",
+            "name": "Provides the seasons for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments\/{tournament_id}\/seasons{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "a163bb0dcba7b1ce27139745b32fd7af",
+            "name": "Provides probabilities for a given match; prematch...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/sport_events\/{match_id}\/probabilities{format}",
+            "description": "Provides probabilities for a given match; prematch only",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "2a8398f70b3291c18ad26deb16c805bc",
+            "name": "Provides detailed information for a given match",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/sport_events\/{match_id}\/timeline{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed8703762e61f7e7eb93a1275f37afb9",
+            "name": "Provides a list of Competitors from a given Tourna...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments\/{tournament_id}\/info{format}",
+            "description": "Provides a list of Competitors from a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "2fae739b408eb0507a0c843c57aab23c",
+            "name": "Provides a list of all tournaments",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "5302d6be776383d532b0c5850ee00757",
+            "name": "Provides the live standings for a given Tournament...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments\/{tournament_id}\/live_standings{format}",
+            "description": "Provides the live standings for a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "11f73da5ce29a8274a61e8085d243ddc",
+            "name": "Provides the results for a given tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments\/{tournament_id}\/results{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "ef5ccca0d28501d5bcac56cd00b12b15",
+            "name": "Provides the schedule for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments\/{tournament_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "9692da88c26caa896669958d11fd1643",
+            "name": "Provides the standings for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/tournaments\/{tournament_id}\/standings{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        },
+        {
+            "id": "f5b3531f12ab20b79407831d2d731cdf",
+            "name": "Provides venue information for a stadium",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/american\/en\/venues\/{venue_id}\/summary{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "venue_id",
+                    "description": "A given Venue ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "4588503790d05e1ccc0824bd8b0db234",
+            "rawModeData": ""
+        }
+    ]
+}
