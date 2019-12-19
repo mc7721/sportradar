@@ -1,0 +1,502 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "American Football Trial",
+        "description": "Test our API services using our API Sandbox!    Enter your sport specific TRIAL KEY in the box below. Sportradar's American Football API",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.sportradar.com\/football-t1\/american\/en"
+    ],
+    "paths": {
+        "\/competitors\/{competitor_id}\/profile{format}": {
+            "get": {
+                "summary": "Provides information for a given competitor",
+                "description": "",
+                "operationId": "CompetitorProfileAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/competitors\/{competitor_id}\/results{format}": {
+            "get": {
+                "summary": "Provides past match results for a given competitor...",
+                "description": "Provides past match results for a given competitor",
+                "operationId": "CompetitorResultsAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/competitors\/{competitor_id}\/schedule{format}": {
+            "get": {
+                "summary": "Provides the schedule for a given competitor",
+                "description": "",
+                "operationId": "CompetitorScheduleAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/schedules\/{year-}{month-}{day}\/results{format}": {
+            "get": {
+                "summary": "Provides the match scoring for all matches played ...",
+                "description": "Provides the match scoring for all matches played on a given day",
+                "operationId": "DailyResultsAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "query",
+                        "description": "The calendar year"
+                    },
+                    {
+                        "name": "month",
+                        "in": "query",
+                        "description": "The calendar month"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The calendar day"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    },
+                    {
+                        "name": "year-",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "month-",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/schedules\/{year-}{month-}{day}\/schedule{format}": {
+            "get": {
+                "summary": "Provides the schedule for all matches played on a ...",
+                "description": "Provides the schedule for all matches played on a given day",
+                "operationId": "DailyScheduleAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "query",
+                        "description": "The calendar year"
+                    },
+                    {
+                        "name": "month",
+                        "in": "query",
+                        "description": "The calendar month"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The calendar day"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    },
+                    {
+                        "name": "year-",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "month-",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}": {
+            "get": {
+                "summary": "Provides team versus team data",
+                "description": "",
+                "operationId": "HeadtoHeadAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id1",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "competitor_id2",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/players\/{player_id1}\/profile{format}": {
+            "get": {
+                "summary": "Provides player profile information",
+                "description": "",
+                "operationId": "PlayerProfileAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "player_id1",
+                        "in": "path",
+                        "description": "The ID of the player, found in Competitor Profile endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/schedules\/live\/schedule{format}": {
+            "get": {
+                "summary": "Provides a list of matches in progress",
+                "description": "",
+                "operationId": "LiveScheduleAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/seasons{format}": {
+            "get": {
+                "summary": "Provides the seasons for a given Tournament",
+                "description": "",
+                "operationId": "SeasonsAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/sport_events\/{match_id}\/probabilities{format}": {
+            "get": {
+                "summary": "Provides probabilities for a given match; prematch...",
+                "description": "Provides probabilities for a given match; prematch only",
+                "operationId": "SportEventProbabilitiesAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "match_id",
+                        "in": "path",
+                        "description": "A given event ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/sport_events\/{match_id}\/timeline{format}": {
+            "get": {
+                "summary": "Provides detailed information for a given match",
+                "description": "",
+                "operationId": "SportEventTimelineAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "match_id",
+                        "in": "path",
+                        "description": "A given event ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/info{format}": {
+            "get": {
+                "summary": "Provides a list of Competitors from a given Tourna...",
+                "description": "Provides a list of Competitors from a given Tournament",
+                "operationId": "TournamentInfoAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments{format}": {
+            "get": {
+                "summary": "Provides a list of all tournaments",
+                "description": "",
+                "operationId": "TournamentListAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/live_standings{format}": {
+            "get": {
+                "summary": "Provides the live standings for a given Tournament...",
+                "description": "Provides the live standings for a given Tournament",
+                "operationId": "TournamentLiveStandingsAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/results{format}": {
+            "get": {
+                "summary": "Provides the results for a given tournament",
+                "description": "",
+                "operationId": "TournamentResultsAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/schedule{format}": {
+            "get": {
+                "summary": "Provides the schedule for a given Tournament",
+                "description": "",
+                "operationId": "TournamentScheduleAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/standings{format}": {
+            "get": {
+                "summary": "Provides the standings for a given Tournament",
+                "description": "",
+                "operationId": "TournamentStandingsAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/venues\/{venue_id}\/summary{format}": {
+            "get": {
+                "summary": "Provides venue information for a stadium",
+                "description": "",
+                "operationId": "VenuesAmericanFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "venue_id",
+                        "in": "path",
+                        "description": "A given Venue ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
