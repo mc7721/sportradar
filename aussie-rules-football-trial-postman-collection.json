@@ -1,0 +1,708 @@
+{
+    "id": "729a006b90bc0f51a6cfdfeb61a88990",
+    "name": "Aussie Rules Football Trial",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "3fcefb0d831d26c2815ec635baa28a67",
+            "name": "Provides information for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "660cfd103fe9bb75c43c880842e6b1f0",
+            "name": "Provides past match results for a given competitor...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id}\/results{format}",
+            "description": "Provides past match results for a given competitor",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "8d8335389955527d303be80ce368db10",
+            "name": "Provides the schedule for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea8c3b30e41e26ce8a96c3fe7ca55e63",
+            "name": "Provides the match scoring for all matches played ...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/schedules\/{year-}{month-}{day}\/results{format}",
+            "description": "Provides the match scoring for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "188833069692d2adcf3f72ede6246cda",
+            "name": "Provides the schedule for all matches played on a ...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
+            "description": "Provides the schedule for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "b855a39eac9167305ead024e8905c734",
+            "name": "Provides team versus team data",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id1",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "competitor_id2",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "01bf80dd78af8668fbc269c79ea06d0a",
+            "name": "Provides a list of matches in progress",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/schedules\/live\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "dd94938191e1b198ac45563f1ab66f6d",
+            "name": "Provides the seasons for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/seasons{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "5f1eec55d6358762ef35b64c71563e0e",
+            "name": "Provides probabilities for a given match; prematch...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/sport_events\/{match_id}\/probabilities{format}",
+            "description": "Provides probabilities for a given match; prematch only",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "9a310a3ad2df283a7e4e1757f4e9af2a",
+            "name": "Provides detailed information for a given match",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/sport_events\/{match_id}\/timeline{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "e8df76b5547aae1feaad971b15fb975d",
+            "name": "Provides a list of Competitors from a given Tourna...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/info{format}",
+            "description": "Provides a list of Competitors from a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "be4f0f8a5b1943214c41dd66cdd78937",
+            "name": "Provides a list of all tournaments",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "2eedb15a7437e51dac753d9244a0ed75",
+            "name": "Provides the live standings for a given Tournament...",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/live_standings{format}",
+            "description": "Provides the live standings for a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "5361acf94e40ad8bbe27cabcbad7d3a6",
+            "name": "Provides the results for a given tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/results{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "7e50f9c57942ddc56830a8b5f6c6a826",
+            "name": "Provides the schedule for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "61ca0c049c96d9b7210738be5b528b46",
+            "name": "Provides the standings for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/standings{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        },
+        {
+            "id": "f2d1c08eb1c74a36cba0860ec03e9590",
+            "name": "Provides venue information for a stadium",
+            "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/venues\/{venue_id}\/summary{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "venue_id",
+                    "description": "A given Venue ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "rawModeData": ""
+        }
+    ]
+}
