@@ -1,0 +1,477 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Aussie Rules Football Trial",
+        "description": "Test our API services using our API Sandbox!    Enter your sport specific TRIAL KEY in the box below. Sportradar's Australian Football API",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.sportradar.com\/football-t1\/australian\/en"
+    ],
+    "paths": {
+        "\/competitors\/{competitor_id}\/profile{format}": {
+            "get": {
+                "summary": "Provides information for a given competitor",
+                "description": "",
+                "operationId": "CompetitorProfileAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/competitors\/{competitor_id}\/results{format}": {
+            "get": {
+                "summary": "Provides past match results for a given competitor...",
+                "description": "Provides past match results for a given competitor",
+                "operationId": "CompetitorResultsAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/competitors\/{competitor_id}\/schedule{format}": {
+            "get": {
+                "summary": "Provides the schedule for a given competitor",
+                "description": "",
+                "operationId": "CompetitorScheduleAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/schedules\/{year-}{month-}{day}\/results{format}": {
+            "get": {
+                "summary": "Provides the match scoring for all matches played ...",
+                "description": "Provides the match scoring for all matches played on a given day",
+                "operationId": "DailyResultsAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "query",
+                        "description": "The calendar year"
+                    },
+                    {
+                        "name": "month",
+                        "in": "query",
+                        "description": "The calendar month"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The calendar day"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    },
+                    {
+                        "name": "year-",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "month-",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/schedules\/{year-}{month-}{day}\/schedule{format}": {
+            "get": {
+                "summary": "Provides the schedule for all matches played on a ...",
+                "description": "Provides the schedule for all matches played on a given day",
+                "operationId": "DailyScheduleAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "year",
+                        "in": "query",
+                        "description": "The calendar year"
+                    },
+                    {
+                        "name": "month",
+                        "in": "query",
+                        "description": "The calendar month"
+                    },
+                    {
+                        "name": "day",
+                        "in": "path",
+                        "description": "The calendar day"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    },
+                    {
+                        "name": "year-",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "month-",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}": {
+            "get": {
+                "summary": "Provides team versus team data",
+                "description": "",
+                "operationId": "HeadtoHeadAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "competitor_id1",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "competitor_id2",
+                        "in": "path",
+                        "description": "The ID of the team, found in Tournament Info endpoint"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/schedules\/live\/schedule{format}": {
+            "get": {
+                "summary": "Provides a list of matches in progress",
+                "description": "",
+                "operationId": "LiveScheduleAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/seasons{format}": {
+            "get": {
+                "summary": "Provides the seasons for a given Tournament",
+                "description": "",
+                "operationId": "SeasonsAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/sport_events\/{match_id}\/probabilities{format}": {
+            "get": {
+                "summary": "Provides probabilities for a given match; prematch...",
+                "description": "Provides probabilities for a given match; prematch only",
+                "operationId": "SportEventProbabilitiesAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "match_id",
+                        "in": "path",
+                        "description": "A given event ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/sport_events\/{match_id}\/timeline{format}": {
+            "get": {
+                "summary": "Provides detailed information for a given match",
+                "description": "",
+                "operationId": "SportEventTimelineAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "match_id",
+                        "in": "path",
+                        "description": "A given event ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/info{format}": {
+            "get": {
+                "summary": "Provides a list of Competitors from a given Tourna...",
+                "description": "Provides a list of Competitors from a given Tournament",
+                "operationId": "TournamentInfoAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments{format}": {
+            "get": {
+                "summary": "Provides a list of all tournaments",
+                "description": "",
+                "operationId": "TournamentListAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/live_standings{format}": {
+            "get": {
+                "summary": "Provides the live standings for a given Tournament...",
+                "description": "Provides the live standings for a given Tournament",
+                "operationId": "TournamentLiveStandingsAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/results{format}": {
+            "get": {
+                "summary": "Provides the results for a given tournament",
+                "description": "",
+                "operationId": "TournamentResultsAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/schedule{format}": {
+            "get": {
+                "summary": "Provides the schedule for a given Tournament",
+                "description": "",
+                "operationId": "TournamentScheduleAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/tournaments\/{tournament_id}\/standings{format}": {
+            "get": {
+                "summary": "Provides the standings for a given Tournament",
+                "description": "",
+                "operationId": "TournamentStandingsAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "tournament_id",
+                        "in": "path",
+                        "description": "Tournament ID found in the Tournament List API"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "\/venues\/{venue_id}\/summary{format}": {
+            "get": {
+                "summary": "Provides venue information for a stadium",
+                "description": "",
+                "operationId": "VenuesAussieRulesFootball",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "venue_id",
+                        "in": "path",
+                        "description": "A given Venue ID"
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "Desired Output Format"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
