@@ -1,0 +1,1068 @@
+{
+    "id": "e3efefedcd1b389eadcb6d3d57c2f552",
+    "name": "MLB v6 Trial",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "adf78b7d4bfae85b57b7c7071729e7f3",
+            "name": "Obtain Daily Boxscores for MLB for a given season....",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{month}\/{day}\/boxscore{format}",
+            "description": "Obtain Daily Boxscores for MLB for a given season. NOTE: The 2012 sample data is an abbreviated season.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The month (format: MM)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The day (format: DD)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "b0600e71eff293ee613a39f98a48a57f",
+            "name": "Obtain changes made to previously closed events, t...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/{year}\/{month}\/{day}\/changes{format}",
+            "description": "Obtain changes made to previously closed events, team rosters, or player profiles for a given day.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The month (format: MM)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The day (format: DD)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "b34048c9c1ff5a2e9c90ba8e54c95249",
+            "name": "Obtain Schedule for the MLB for a given day. NOTE:...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{month}\/{day}\/schedule{format}",
+            "description": "Obtain Schedule for the MLB for a given day. NOTE: The 2012 sample data is an abbreviated season.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The month (format: MM)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The day (format: DD)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "dffb33186ad36efead511bff19cfb8e3",
+            "name": "Obtain Daily Summary for the MLB for a given day. ...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{month}\/{day}\/summary{format}",
+            "description": "Obtain Daily Summary for the MLB for a given day. NOTE: The 2012 sample data is an abbreviated season.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The month (format: MM)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The day (format: DD)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "216878d8d09347a8c861163e67b93fde",
+            "name": "Obtain information concerning all transactions tak...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/{year}\/{month}\/{day}\/transactions{format}",
+            "description": "Obtain information concerning all transactions taking place on a given MLB defined day.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The month (format: MM)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The day (format: DD)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "8b4ff8edfe2e268be27a5625844b5ca0",
+            "name": "Obtain a boxscore for a specific MLB game.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{event_id}\/boxscore{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "event_id",
+                    "description": "The UUID of the event, found in the schedule feeds",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "d59bdf3e6fa5139d4d61fe8064842ca4",
+            "name": "Obtain a game summary for a specific MLB game.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{event_id}\/summary{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "event_id",
+                    "description": "The UUID of the event, found in the schedule feeds",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "f208ce5b24bb2d6dca50c29f44ebed93",
+            "name": "Obtain the pitch types, player statuses, pitch out...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/glossary{format}",
+            "description": "Obtain the pitch types, player statuses, pitch outcomes, runner outcomes, game status and postseason game IDs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "7e61f4b6d30f1aa07e23d9c3c001ce01",
+            "name": "Obtain information concerning all current injuries...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/injuries{format}",
+            "description": "Obtain information concerning all current injuries across the league.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "4575ed985df505caa6da7f6bed77098e",
+            "name": "Obtain league depth charts for MLB.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/depth_charts{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "ca449b9229a29bf1779ec9931574f682",
+            "name": "Obtain list of MLB teams.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/hierarchy{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "c28d833431a949f4d4e81419ed743a60",
+            "name": "Obtain leaders for a given year.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/leaders\/statistics{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "d8babfae4d3de3d295783630ec9aa32a",
+            "name": "Obtain Schedule for the MLB for a given season. NO...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{mlb_season}\/schedule{format}",
+            "description": "Obtain Schedule for the MLB for a given season. NOTE: The 2012 sample data is an abbreviated season.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "318d324434eac61bb9294110821ae4a0",
+            "name": "Obtain the play-by-play data for a specific MLB ga...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{event_id}\/pbp{format}",
+            "description": "Obtain the play-by-play data for a specific MLB game.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "event_id",
+                    "description": "The UUID of the event, found in the schedule feeds",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "dab8027b6f212126fdec30d8fe41fadd",
+            "name": "Obtain a profile for a given player.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/players\/{player_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "player_id",
+                    "description": "Player ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "fb43481bd4a430d31d717811bdb6ea9a",
+            "name": "Obtain league and division rank for each team, inc...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/rankings{format}",
+            "description": "Obtain league and division rank for each team, including post season clinching status (available beginning with 2014 season)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "67d4a0ff163661df3f5a9e593f7cfd41",
+            "name": "Obtain season splits for MLB -- Not available pre-...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/teams\/{team_id}\/splits{format}",
+            "description": "Obtain season splits for MLB -- Not available pre-2015",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "team_id",
+                    "description": "The ID of a given team, found in the league hierarchy feed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "49e1e036763a2975764b0acf92904d1d",
+            "name": "Obtain season statistics for MLB",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/teams\/{team_id}\/statistics{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "team_id",
+                    "description": "The ID of a given team, found in the league hierarchy feed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "210a03da9e60970dc7ef7100f021d7ca",
+            "name": "Obtain Series Schedule for the MLB for the postsea...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/series\/{year}\/{mlb_season}\/schedule{format}",
+            "description": "Obtain Series Schedule for the MLB for the postseason.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "fe14f2d6cd50a550eee77e1dc687fc7d",
+            "name": "Obtain series statistics for a given series. Pleas...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/series\/{series_id}\/teams\/{team_id}\/statistics{format}",
+            "description": "Obtain series statistics for a given series. Please note that this feed will not return data until the 2017 playoffs begin",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "series_id",
+                    "description": "The series id, found in the Series Schedule",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "team_id",
+                    "description": "The ID of a given team, found in the league hierarchy feed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "640a04618cc7b296082405037dacd83e",
+            "name": "Obtain series summary info for a given series. Ple...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/series\/{series_id}\/summary{format}",
+            "description": "Obtain series summary info for a given series. Please note that this feed will not return data until the 2017 playoffs begin",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "series_id",
+                    "description": "The series id, found in the Series Schedule",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "2dd6659256cc40ca5ae147726fffc3ea",
+            "name": "Obtain Standings for the MLB for a given season. S...",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/standings{format}",
+            "description": "Obtain Standings for the MLB for a given season. Standing data is not valid for 2012 as we do not have a full season available.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The season (year)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mlb_season",
+                    "description": "The part of the season(PRE, REG, PST)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "4df699d6d59b89563236d007c5ecb5a6",
+            "name": "Obtain team depth chart information.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/teams\/{team_id}\/depth_chart{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "team_id",
+                    "description": "The ID of a given team, found in the league hierarchy feed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff19b4fc58f146ea96d2d6acffaf363b",
+            "name": "Obtain team profile information.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/teams\/{team_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "team_id",
+                    "description": "The ID of a given team, found in the league hierarchy feed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        },
+        {
+            "id": "daa00c511cdd1ab3ab1cb8ed7d98877f",
+            "name": "Obtain venue data for the current season.",
+            "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/venues{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "rawModeData": ""
+        }
+    ]
+}
