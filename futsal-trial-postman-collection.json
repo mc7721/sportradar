@@ -1,0 +1,708 @@
+{
+    "id": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+    "name": "Futsal Trial",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "72614482f1d29b23e06c536d8762c9f0",
+            "name": "Provides information for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/competitors\/{competitor_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "a7e45741327f0058fc6f02d01f0a60ab",
+            "name": "Provides past match results for a given competitor...",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/competitors\/{competitor_id}\/results{format}",
+            "description": "Provides past match results for a given competitor",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "97d33f89c9ad342309aa3e8f4e2f4c81",
+            "name": "Provides the schedule for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/competitors\/{competitor_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "a904ec8e3e546ff516ba1741e20e126f",
+            "name": "Provides the match scoring for all matches played ...",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/schedules\/{year-}{month-}{day}\/results{format}",
+            "description": "Provides the match scoring for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "7afde9ad7913e8811a8a804c690b1596",
+            "name": "Provides the schedule for all matches played on a ...",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
+            "description": "Provides the schedule for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "98458ac4be6f172c2c60a8a6d8c9b862",
+            "name": "Provides team versus team data",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id1",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "competitor_id2",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "caecc060bfa27563df2c8ac953c20324",
+            "name": "Provides a list of matches in progress",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/schedules\/live\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "f2fafba97f00cd1ba1e8a052c709bfa8",
+            "name": "Provides the seasons for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/seasons{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "a692213a6b50860ef32d5bcd8b1766bd",
+            "name": "Provides probabilities for a given match; prematch...",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/sport_events\/{match_id}\/probabilities{format}",
+            "description": "Provides probabilities for a given match; prematch only",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "74510f73644bea499acea4064c35ee63",
+            "name": "Provides detailed information for a given match",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/sport_events\/{match_id}\/timeline{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9003a1de5cd6212978e4c38cc84c6bb",
+            "name": "Provides a list of Competitors from a given Tourna...",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/info{format}",
+            "description": "Provides a list of Competitors from a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "122c032147acbf0896c0c815b6f713fb",
+            "name": "Provides a list of all tournaments",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "65dc99cc27ee2a27fd86f225543089ea",
+            "name": "Provides the live standings for a given Tournament...",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/live_standings{format}",
+            "description": "Provides the live standings for a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "843311e27bf808b92b90a6ba7065cd4f",
+            "name": "Provides the results for a given tournament",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/results{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "c217fe938a3ea2b582f62f4a5296491f",
+            "name": "Provides the schedule for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "3048ecdc9c706c00e495eeab0a1fc79e",
+            "name": "Provides the standings for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/standings{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        },
+        {
+            "id": "d8036019d9d850571f248a12e153f79a",
+            "name": "Provides venue information for a stadium",
+            "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/venues\/{venue_id}\/summary{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "venue_id",
+                    "description": "A given Venue ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "rawModeData": ""
+        }
+    ]
+}
