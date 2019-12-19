@@ -1,0 +1,708 @@
+{
+    "id": "79110f176b356f2ebc22c24f65e33d90",
+    "name": "Bandy Trial",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "f3d26ba3045fb2cf93e88356c3a596f4",
+            "name": "Provides information for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/competitors\/{competitor_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "01b8dea86203afa33ee59626d580fbe9",
+            "name": "Provides past match results for a given competitor...",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/competitors\/{competitor_id}\/results{format}",
+            "description": "Provides past match results for a given competitor",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba32fff57240272fbea41c80b209b5a3",
+            "name": "Provides the schedule for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/competitors\/{competitor_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "4d6947bea8555c0d70d840b7277623a4",
+            "name": "Provides the match scoring for all matches played ...",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/schedules\/{year-}{month-}{day}\/results{format}",
+            "description": "Provides the match scoring for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "f21ff212c32c229411a412cb7d4ff693",
+            "name": "Provides the schedule for all matches played on a ...",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
+            "description": "Provides the schedule for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "dfa81fdd52c0bd6218d27c51a26abea4",
+            "name": "Provides team versus team data",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id1",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "competitor_id2",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "529a29f543e17dbfffae9db87089eb51",
+            "name": "Provides a list of matches in progress",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/schedules\/live\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "5c58564bb84bb1aa9bdaf065682feb04",
+            "name": "Provides the seasons for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/seasons{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "4da3ede91632bc8322eda058e9644694",
+            "name": "Provides probabilities for a given match; prematch...",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/sport_events\/{match_id}\/probabilities{format}",
+            "description": "Provides probabilities for a given match; prematch only",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "7dd013a9be261bb4e630e4319c876672",
+            "name": "Provides detailed information for a given match",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/sport_events\/{match_id}\/timeline{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "8f9d05c2c64e03a923e1f36f5d5971cd",
+            "name": "Provides a list of Competitors from a given Tourna...",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/info{format}",
+            "description": "Provides a list of Competitors from a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "89a947c9b643f6892bd2b7201ba33850",
+            "name": "Provides a list of all tournaments",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "a72311888bd7e5b1d14246841e428250",
+            "name": "Provides the live standings for a given Tournament...",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/live_standings{format}",
+            "description": "Provides the live standings for a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "07b0396b813d10cd2306dcdce41119b7",
+            "name": "Provides the results for a given tournament",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/results{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "c692f67cc0a202503f48be3c3ed8fadf",
+            "name": "Provides the schedule for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "54968a98ede9230840bf7b15c9ccf441",
+            "name": "Provides the standings for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/standings{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        },
+        {
+            "id": "7534fcd3078320e38bf9228276c376c5",
+            "name": "Provides venue information for a stadium",
+            "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/venues\/{venue_id}\/summary{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "venue_id",
+                    "description": "A given Venue ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "rawModeData": ""
+        }
+    ]
+}
