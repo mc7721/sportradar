@@ -1,0 +1,207 @@
+{
+    "name": "Sportradar",
+    "description": "Sportradar is a global leader in understanding and leveraging the power of sports data and digital content for its clients around the world. We provide cutting-edge solutions and services to media companies, bookmakers, sports federations and state aut...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+    "tags": [
+        "baseball",
+        "basketball",
+        "football",
+        "have api",
+        "have swagger",
+        "hockey",
+        "soccer"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/sportradar\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Sportradar",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/sportradar.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/sportradar-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "MLB v5 Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/mlb-v5-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/mlb-v5-trial-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "MLB v6 Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/mlb-v6-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/mlb-v6-trial-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "American Football Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/american-football-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/american-football-trial-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Aussie Rules Football Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/aussie-rules-football-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/aussie-rules-football-trial-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Bandy Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/bandy-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/bandy-trial-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Futsal Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/futsal-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/futsal-trial-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Global Baseball Trial",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28256-developer-sportradar-com.jpg",
+            "humanURL": "https:\/\/developer.sportradar.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/global-baseball-trial.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/global-baseball-trial-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/sportradar-ag"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-14-39-44.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-14-39-53.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-14-40-02.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-14-40-11.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-14-40-23.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-10-41-49.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28256-2019-09-04-10-41-58.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Sportradar"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/developer.sportradar.com"
+        }
+    ]
+}
