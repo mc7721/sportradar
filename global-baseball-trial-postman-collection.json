@@ -1,0 +1,746 @@
+{
+    "id": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+    "name": "Global Baseball Trial",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "00e04754d4c1fc02dd8465006716f3cd",
+            "name": "Provides information for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/competitors\/{competitor_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "4fe67c988e485f241f102c1174a6bc3c",
+            "name": "Provides past match results for a given competitor...",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/competitors\/{competitor_id}\/results{format}",
+            "description": "Provides past match results for a given competitor",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c4204ec7bebed896a2af06c3bee699f",
+            "name": "Provides the schedule for a given competitor",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/competitors\/{competitor_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "b2d7f9f707115dde5fc2bb5785563864",
+            "name": "Provides the match scoring for all matches played ...",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/schedules\/{year-}{month-}{day}\/results{format}",
+            "description": "Provides the match scoring for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "b8998b6567246b9576f5bec2ea52310c",
+            "name": "Provides the schedule for all matches played on a ...",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
+            "description": "Provides the schedule for all matches played on a given day",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "year",
+                    "description": "The calendar year",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month",
+                    "description": "The calendar month",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "day",
+                    "description": "The calendar day",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "year-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "month-",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "481fc1c53b91f17f31f8655d0f32749e",
+            "name": "Provides team versus team data",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "competitor_id1",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "competitor_id2",
+                    "description": "The ID of the team, found in Tournament Info endpoint",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "1483e88a25cf3d51793d9568e2e0ad3d",
+            "name": "Provides a list of matches in progress",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/schedules\/live\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "3d67052290d0d25cad3d353854588fb3",
+            "name": "Provides information for a given Player",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/players\/{player_id}\/profile{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "player_id",
+                    "description": "A player ID found in a Competitor Profile",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "47062ee012789dcb79d848b8bd877316",
+            "name": "Provides the seasons for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/seasons{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "9ec59eb5e4e7269ef0dadbb50e543259",
+            "name": "Provides probabilities for a given match; prematch...",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/sport_events\/{match_id}\/probabilities{format}",
+            "description": "Provides probabilities for a given match; prematch only",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "b1ae90ea50792d5e5d30442d1dbc2343",
+            "name": "Provides detailed information for a given match",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/sport_events\/{match_id}\/timeline{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "match_id",
+                    "description": "A given event ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "c24eddac0f76972e89d2e5ed3487cbcf",
+            "name": "Provides a list of Competitors from a given Tourna...",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/info{format}",
+            "description": "Provides a list of Competitors from a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "51ab1976dd4caeb92708971a23bb1ad5",
+            "name": "Provides a list of all tournaments",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "aaa21597b3d1f3c0e3f7e0a99ae9ad38",
+            "name": "Provides the live standings for a given Tournament...",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/live_standings{format}",
+            "description": "Provides the live standings for a given Tournament",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea8572e156c525f5fe1ca55107c4e241",
+            "name": "Provides the results for a given tournament",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/results{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "80bdfe5076f088d6de5e1e3693ece9b7",
+            "name": "Provides the schedule for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/schedule{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "5dbc21d32b468f4cae618685e8c83ab3",
+            "name": "Provides the standings for a given Tournament",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/standings{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "tournament_id",
+                    "description": "Tournament ID found in the Tournament List API",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        },
+        {
+            "id": "8eae61282498164cd3df0e99f1409c56",
+            "name": "Provides venue information for a stadium",
+            "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/venues\/{venue_id}\/summary{format}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "venue_id",
+                    "description": "A given Venue ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Desired Output Format",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "rawModeData": ""
+        }
+    ]
+}
