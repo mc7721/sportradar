@@ -1,5 +1,5 @@
 {
-    "id": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+    "id": "6d21035daddff4baca816ee71090e5cf",
     "name": "Global Baseball Trial",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "00e04754d4c1fc02dd8465006716f3cd",
+            "id": "e22d751cc4dbd3ec7f0106d675e142f3",
             "name": "Provides information for a given competitor",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/competitors\/{competitor_id}\/profile{format}",
             "description": "",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "4fe67c988e485f241f102c1174a6bc3c",
+            "id": "6bd5c149c9ae1c424899a3cc66c8b929",
             "name": "Provides past match results for a given competitor...",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/competitors\/{competitor_id}\/results{format}",
             "description": "Provides past match results for a given competitor",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "9c4204ec7bebed896a2af06c3bee699f",
+            "id": "698b8b3f1b0c7fc2cd8884cebf9ed0df",
             "name": "Provides the schedule for a given competitor",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/competitors\/{competitor_id}\/schedule{format}",
             "description": "",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "b2d7f9f707115dde5fc2bb5785563864",
+            "id": "fc598c1a45a7d5c99402dff1bef942a3",
             "name": "Provides the match scoring for all matches played ...",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/schedules\/{year-}{month-}{day}\/results{format}",
             "description": "Provides the match scoring for all matches played on a given day",
@@ -186,11 +186,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "b8998b6567246b9576f5bec2ea52310c",
+            "id": "db5d8b830810fc088779cf8b764e2867",
             "name": "Provides the schedule for all matches played on a ...",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
             "description": "Provides the schedule for all matches played on a given day",
@@ -252,11 +252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "481fc1c53b91f17f31f8655d0f32749e",
+            "id": "f87684c8f4dd03641b4780c5ff244bc7",
             "name": "Provides team versus team data",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
             "description": "",
@@ -297,11 +297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "1483e88a25cf3d51793d9568e2e0ad3d",
+            "id": "81261616a49ec3443e0214dc3f39406b",
             "name": "Provides a list of matches in progress",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/schedules\/live\/schedule{format}",
             "description": "",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "3d67052290d0d25cad3d353854588fb3",
+            "id": "71b24691e0a161777f753cf82e5b2b28",
             "name": "Provides information for a given Player",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/players\/{player_id}\/profile{format}",
             "description": "",
@@ -366,11 +366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "47062ee012789dcb79d848b8bd877316",
+            "id": "b082e18ae896e27676b0fa296e44ad83",
             "name": "Provides the seasons for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/seasons{format}",
             "description": "",
@@ -404,11 +404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "9ec59eb5e4e7269ef0dadbb50e543259",
+            "id": "9f41b3c30e26d41e2f7985b266535f8a",
             "name": "Provides probabilities for a given match; prematch...",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/sport_events\/{match_id}\/probabilities{format}",
             "description": "Provides probabilities for a given match; prematch only",
@@ -442,11 +442,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "b1ae90ea50792d5e5d30442d1dbc2343",
+            "id": "c17e6252a96ae9022cad720003bda59d",
             "name": "Provides detailed information for a given match",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/sport_events\/{match_id}\/timeline{format}",
             "description": "",
@@ -480,11 +480,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "c24eddac0f76972e89d2e5ed3487cbcf",
+            "id": "5b3ccd8017921f830d652ffedfc64a13",
             "name": "Provides a list of Competitors from a given Tourna...",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/info{format}",
             "description": "Provides a list of Competitors from a given Tournament",
@@ -518,11 +518,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "51ab1976dd4caeb92708971a23bb1ad5",
+            "id": "15503f4611854aae7412276258d10477",
             "name": "Provides a list of all tournaments",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments{format}",
             "description": "",
@@ -549,11 +549,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "aaa21597b3d1f3c0e3f7e0a99ae9ad38",
+            "id": "e14f7612e0defa92dae9c4e1d52dedb5",
             "name": "Provides the live standings for a given Tournament...",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/live_standings{format}",
             "description": "Provides the live standings for a given Tournament",
@@ -587,11 +587,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "ea8572e156c525f5fe1ca55107c4e241",
+            "id": "ebc9df1c68bdd4826ca947440eca4819",
             "name": "Provides the results for a given tournament",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/results{format}",
             "description": "",
@@ -625,11 +625,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "80bdfe5076f088d6de5e1e3693ece9b7",
+            "id": "918f75bf93e81486be71ab4bbfb37ace",
             "name": "Provides the schedule for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/schedule{format}",
             "description": "",
@@ -663,11 +663,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "5dbc21d32b468f4cae618685e8c83ab3",
+            "id": "f5273a238d548594fff5b31ec89b6c00",
             "name": "Provides the standings for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/tournaments\/{tournament_id}\/standings{format}",
             "description": "",
@@ -701,11 +701,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         },
         {
-            "id": "8eae61282498164cd3df0e99f1409c56",
+            "id": "636f5d4adf2556be84d16036384c1f86",
             "name": "Provides venue information for a stadium",
             "url": "http:\/\/api.sportradar.com\/baseball-t1\/en\/venues\/{venue_id}\/summary{format}",
             "description": "",
@@ -739,7 +739,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "08b9b2f0967aaab86f71d6f6cc5e2f04",
+            "collectionId": "6d21035daddff4baca816ee71090e5cf",
             "rawModeData": ""
         }
     ]
