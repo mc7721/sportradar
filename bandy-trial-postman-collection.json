@@ -1,5 +1,5 @@
 {
-    "id": "79110f176b356f2ebc22c24f65e33d90",
+    "id": "d473fff766db2b7f1e9cb2b2f7d57225",
     "name": "Bandy Trial",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "f3d26ba3045fb2cf93e88356c3a596f4",
+            "id": "5bcf72a09f28a26f4bdf296dcf17081e",
             "name": "Provides information for a given competitor",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/competitors\/{competitor_id}\/profile{format}",
             "description": "",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "01b8dea86203afa33ee59626d580fbe9",
+            "id": "550b416fe6577549c9bf5bc19212fc8d",
             "name": "Provides past match results for a given competitor...",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/competitors\/{competitor_id}\/results{format}",
             "description": "Provides past match results for a given competitor",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "ba32fff57240272fbea41c80b209b5a3",
+            "id": "607dadbbc2d79318578a38e82579a9b8",
             "name": "Provides the schedule for a given competitor",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/competitors\/{competitor_id}\/schedule{format}",
             "description": "",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "4d6947bea8555c0d70d840b7277623a4",
+            "id": "cbf0861d498c6546865e24e48c9d6c2b",
             "name": "Provides the match scoring for all matches played ...",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/schedules\/{year-}{month-}{day}\/results{format}",
             "description": "Provides the match scoring for all matches played on a given day",
@@ -186,11 +186,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "f21ff212c32c229411a412cb7d4ff693",
+            "id": "01b8532ef5febc455bb26358efca1e40",
             "name": "Provides the schedule for all matches played on a ...",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
             "description": "Provides the schedule for all matches played on a given day",
@@ -252,11 +252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "dfa81fdd52c0bd6218d27c51a26abea4",
+            "id": "c3d33288061bde0760f4e94447581783",
             "name": "Provides team versus team data",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
             "description": "",
@@ -297,11 +297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "529a29f543e17dbfffae9db87089eb51",
+            "id": "43b9e67d317d953da7f73282ce473088",
             "name": "Provides a list of matches in progress",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/schedules\/live\/schedule{format}",
             "description": "",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "5c58564bb84bb1aa9bdaf065682feb04",
+            "id": "948bfa18eb98463373fa79b73f93713c",
             "name": "Provides the seasons for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/seasons{format}",
             "description": "",
@@ -366,11 +366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "4da3ede91632bc8322eda058e9644694",
+            "id": "e2afea09bcd32b53da3ca72c5e893d93",
             "name": "Provides probabilities for a given match; prematch...",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/sport_events\/{match_id}\/probabilities{format}",
             "description": "Provides probabilities for a given match; prematch only",
@@ -404,11 +404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "7dd013a9be261bb4e630e4319c876672",
+            "id": "b16aa089b5fb214d9759274492747baf",
             "name": "Provides detailed information for a given match",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/sport_events\/{match_id}\/timeline{format}",
             "description": "",
@@ -442,11 +442,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "8f9d05c2c64e03a923e1f36f5d5971cd",
+            "id": "8d9c5a642231044067421a5959a36808",
             "name": "Provides a list of Competitors from a given Tourna...",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/info{format}",
             "description": "Provides a list of Competitors from a given Tournament",
@@ -480,11 +480,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "89a947c9b643f6892bd2b7201ba33850",
+            "id": "8a830ddd37577f8595d4563bd1d43919",
             "name": "Provides a list of all tournaments",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments{format}",
             "description": "",
@@ -511,11 +511,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "a72311888bd7e5b1d14246841e428250",
+            "id": "a7e3a6b99b4c303107751ec27519a1b5",
             "name": "Provides the live standings for a given Tournament...",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/live_standings{format}",
             "description": "Provides the live standings for a given Tournament",
@@ -549,11 +549,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "07b0396b813d10cd2306dcdce41119b7",
+            "id": "717625a4386033514c0726607e1448a1",
             "name": "Provides the results for a given tournament",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/results{format}",
             "description": "",
@@ -587,11 +587,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "c692f67cc0a202503f48be3c3ed8fadf",
+            "id": "11b08f41bf671f7e7ec3d63102e4204e",
             "name": "Provides the schedule for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/schedule{format}",
             "description": "",
@@ -625,11 +625,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "54968a98ede9230840bf7b15c9ccf441",
+            "id": "bf4ddb2077ef139e1ee1b7381a1da862",
             "name": "Provides the standings for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/tournaments\/{tournament_id}\/standings{format}",
             "description": "",
@@ -663,11 +663,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         },
         {
-            "id": "7534fcd3078320e38bf9228276c376c5",
+            "id": "a4c759b7c5dce36ad4a0b03853fffdf8",
             "name": "Provides venue information for a stadium",
             "url": "http:\/\/api.sportradar.com\/bandy-t1\/en\/venues\/{venue_id}\/summary{format}",
             "description": "",
@@ -701,7 +701,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "79110f176b356f2ebc22c24f65e33d90",
+            "collectionId": "d473fff766db2b7f1e9cb2b2f7d57225",
             "rawModeData": ""
         }
     ]
