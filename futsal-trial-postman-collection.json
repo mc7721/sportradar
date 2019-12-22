@@ -1,5 +1,5 @@
 {
-    "id": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+    "id": "69f48b3e2951eeadfc794f0d477295ef",
     "name": "Futsal Trial",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "72614482f1d29b23e06c536d8762c9f0",
+            "id": "5b286267a4b144cbdc39610c75220b8f",
             "name": "Provides information for a given competitor",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/competitors\/{competitor_id}\/profile{format}",
             "description": "",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "a7e45741327f0058fc6f02d01f0a60ab",
+            "id": "9cada3dbc368094674f240d583e214a1",
             "name": "Provides past match results for a given competitor...",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/competitors\/{competitor_id}\/results{format}",
             "description": "Provides past match results for a given competitor",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "97d33f89c9ad342309aa3e8f4e2f4c81",
+            "id": "416b89322be67b10e95ec2142ed7e7ec",
             "name": "Provides the schedule for a given competitor",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/competitors\/{competitor_id}\/schedule{format}",
             "description": "",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "a904ec8e3e546ff516ba1741e20e126f",
+            "id": "4f7d4dc9c32e4ea278521bb8e541cd43",
             "name": "Provides the match scoring for all matches played ...",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/schedules\/{year-}{month-}{day}\/results{format}",
             "description": "Provides the match scoring for all matches played on a given day",
@@ -186,11 +186,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "7afde9ad7913e8811a8a804c690b1596",
+            "id": "89eea19d8ab4a77a4e37bf5985483614",
             "name": "Provides the schedule for all matches played on a ...",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
             "description": "Provides the schedule for all matches played on a given day",
@@ -252,11 +252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "98458ac4be6f172c2c60a8a6d8c9b862",
+            "id": "e034594e9a532dcaf649697288e6f80f",
             "name": "Provides team versus team data",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
             "description": "",
@@ -297,11 +297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "caecc060bfa27563df2c8ac953c20324",
+            "id": "b994683c706b2d3b411701e0f6971284",
             "name": "Provides a list of matches in progress",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/schedules\/live\/schedule{format}",
             "description": "",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "f2fafba97f00cd1ba1e8a052c709bfa8",
+            "id": "bc694927207f4173455683e193dc419f",
             "name": "Provides the seasons for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/seasons{format}",
             "description": "",
@@ -366,11 +366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "a692213a6b50860ef32d5bcd8b1766bd",
+            "id": "6980addfbd00862263206d0092051f6a",
             "name": "Provides probabilities for a given match; prematch...",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/sport_events\/{match_id}\/probabilities{format}",
             "description": "Provides probabilities for a given match; prematch only",
@@ -404,11 +404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "74510f73644bea499acea4064c35ee63",
+            "id": "651b51d6151c9a1b79f9baa50716303f",
             "name": "Provides detailed information for a given match",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/sport_events\/{match_id}\/timeline{format}",
             "description": "",
@@ -442,11 +442,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "f9003a1de5cd6212978e4c38cc84c6bb",
+            "id": "30b3da3c38aadb797a2639d080db86e3",
             "name": "Provides a list of Competitors from a given Tourna...",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/info{format}",
             "description": "Provides a list of Competitors from a given Tournament",
@@ -480,11 +480,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "122c032147acbf0896c0c815b6f713fb",
+            "id": "7159f9c1a9b5c00b583ab9f957215e03",
             "name": "Provides a list of all tournaments",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments{format}",
             "description": "",
@@ -511,11 +511,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "65dc99cc27ee2a27fd86f225543089ea",
+            "id": "83cc9a11f72c341efe665e06a0a39a3b",
             "name": "Provides the live standings for a given Tournament...",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/live_standings{format}",
             "description": "Provides the live standings for a given Tournament",
@@ -549,11 +549,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "843311e27bf808b92b90a6ba7065cd4f",
+            "id": "9e25a2843b76170ccb8975477c8ebabd",
             "name": "Provides the results for a given tournament",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/results{format}",
             "description": "",
@@ -587,11 +587,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "c217fe938a3ea2b582f62f4a5296491f",
+            "id": "f650039bed59579a0e40317361c85fa5",
             "name": "Provides the schedule for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/schedule{format}",
             "description": "",
@@ -625,11 +625,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "3048ecdc9c706c00e495eeab0a1fc79e",
+            "id": "49d2fb60fd36136dc214c29ac18e7f50",
             "name": "Provides the standings for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/tournaments\/{tournament_id}\/standings{format}",
             "description": "",
@@ -663,11 +663,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         },
         {
-            "id": "d8036019d9d850571f248a12e153f79a",
+            "id": "4621675b74d0a851b1e8a6dbb0caf2de",
             "name": "Provides venue information for a stadium",
             "url": "http:\/\/api.sportradar.com\/futsal-t1\/en\/venues\/{venue_id}\/summary{format}",
             "description": "",
@@ -701,7 +701,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d29a6f427d8d5bcf83cd3082d51aa1a3",
+            "collectionId": "69f48b3e2951eeadfc794f0d477295ef",
             "rawModeData": ""
         }
     ]
