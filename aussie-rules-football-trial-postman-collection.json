@@ -1,5 +1,5 @@
 {
-    "id": "729a006b90bc0f51a6cfdfeb61a88990",
+    "id": "141b9271f1bb058b94b99820c4815ef3",
     "name": "Aussie Rules Football Trial",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "3fcefb0d831d26c2815ec635baa28a67",
+            "id": "e63652c9d1c394c5ab00c6c0997491c4",
             "name": "Provides information for a given competitor",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id}\/profile{format}",
             "description": "",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "660cfd103fe9bb75c43c880842e6b1f0",
+            "id": "ddd204f9ea6ecd1aaf029ac273eb77a0",
             "name": "Provides past match results for a given competitor...",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id}\/results{format}",
             "description": "Provides past match results for a given competitor",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "8d8335389955527d303be80ce368db10",
+            "id": "743c4b6b66155864c99d2fd2dada67a0",
             "name": "Provides the schedule for a given competitor",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id}\/schedule{format}",
             "description": "",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "ea8c3b30e41e26ce8a96c3fe7ca55e63",
+            "id": "f5659607ed630141799925a134cd8555",
             "name": "Provides the match scoring for all matches played ...",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/schedules\/{year-}{month-}{day}\/results{format}",
             "description": "Provides the match scoring for all matches played on a given day",
@@ -186,11 +186,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "188833069692d2adcf3f72ede6246cda",
+            "id": "97ec9c92d2b0da0a9b471c863e361298",
             "name": "Provides the schedule for all matches played on a ...",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/schedules\/{year-}{month-}{day}\/schedule{format}",
             "description": "Provides the schedule for all matches played on a given day",
@@ -252,11 +252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "b855a39eac9167305ead024e8905c734",
+            "id": "97f5fc7622deb8b50d4618ab0d8637ce",
             "name": "Provides team versus team data",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/competitors\/{competitor_id1}\/versus\/{competitor_id2}\/matches{format}",
             "description": "",
@@ -297,11 +297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "01bf80dd78af8668fbc269c79ea06d0a",
+            "id": "573bc5ac63029fd61adc08b14bbf283a",
             "name": "Provides a list of matches in progress",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/schedules\/live\/schedule{format}",
             "description": "",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "dd94938191e1b198ac45563f1ab66f6d",
+            "id": "a0ae9078928846a016f7f43ca4881c97",
             "name": "Provides the seasons for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/seasons{format}",
             "description": "",
@@ -366,11 +366,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "5f1eec55d6358762ef35b64c71563e0e",
+            "id": "cc93eac5533a720f1a8472d87b54d690",
             "name": "Provides probabilities for a given match; prematch...",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/sport_events\/{match_id}\/probabilities{format}",
             "description": "Provides probabilities for a given match; prematch only",
@@ -404,11 +404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "9a310a3ad2df283a7e4e1757f4e9af2a",
+            "id": "78d964646be8fbe5c09296c9c4a8f692",
             "name": "Provides detailed information for a given match",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/sport_events\/{match_id}\/timeline{format}",
             "description": "",
@@ -442,11 +442,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "e8df76b5547aae1feaad971b15fb975d",
+            "id": "3c4a2f0265cffa0ee563e15f78316afa",
             "name": "Provides a list of Competitors from a given Tourna...",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/info{format}",
             "description": "Provides a list of Competitors from a given Tournament",
@@ -480,11 +480,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "be4f0f8a5b1943214c41dd66cdd78937",
+            "id": "aab7be340e3a7c79b1ab49a0feb40cf0",
             "name": "Provides a list of all tournaments",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments{format}",
             "description": "",
@@ -511,11 +511,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "2eedb15a7437e51dac753d9244a0ed75",
+            "id": "c34e4b4020986ecf22620ecc0a8fefd4",
             "name": "Provides the live standings for a given Tournament...",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/live_standings{format}",
             "description": "Provides the live standings for a given Tournament",
@@ -549,11 +549,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "5361acf94e40ad8bbe27cabcbad7d3a6",
+            "id": "65bb5b3bfef7e88e4d6f0176aa60bbff",
             "name": "Provides the results for a given tournament",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/results{format}",
             "description": "",
@@ -587,11 +587,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "7e50f9c57942ddc56830a8b5f6c6a826",
+            "id": "ddca58a971800f90d9dbe0815d8b4053",
             "name": "Provides the schedule for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/schedule{format}",
             "description": "",
@@ -625,11 +625,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "61ca0c049c96d9b7210738be5b528b46",
+            "id": "7e9ccc01bf93f43d31f873d5dae21ce8",
             "name": "Provides the standings for a given Tournament",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/tournaments\/{tournament_id}\/standings{format}",
             "description": "",
@@ -663,11 +663,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         },
         {
-            "id": "f2d1c08eb1c74a36cba0860ec03e9590",
+            "id": "7f16868d52092b992d5aa20de1a9594a",
             "name": "Provides venue information for a stadium",
             "url": "http:\/\/api.sportradar.com\/football-t1\/australian\/en\/venues\/{venue_id}\/summary{format}",
             "description": "",
@@ -701,7 +701,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "729a006b90bc0f51a6cfdfeb61a88990",
+            "collectionId": "141b9271f1bb058b94b99820c4815ef3",
             "rawModeData": ""
         }
     ]
