@@ -1,5 +1,5 @@
 {
-    "id": "e3efefedcd1b389eadcb6d3d57c2f552",
+    "id": "f97413198994fc0a0560726d71cb6aff",
     "name": "MLB v6 Trial",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "adf78b7d4bfae85b57b7c7071729e7f3",
+            "id": "044cdf2c9d7bff28d213c69ef198eea8",
             "name": "Obtain Daily Boxscores for MLB for a given season....",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{month}\/{day}\/boxscore{format}",
             "description": "Obtain Daily Boxscores for MLB for a given season. NOTE: The 2012 sample data is an abbreviated season.",
@@ -58,11 +58,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "b0600e71eff293ee613a39f98a48a57f",
+            "id": "079554beb6afbd37b6c2aaf9f8797c43",
             "name": "Obtain changes made to previously closed events, t...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/{year}\/{month}\/{day}\/changes{format}",
             "description": "Obtain changes made to previously closed events, team rosters, or player profiles for a given day.",
@@ -110,11 +110,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "b34048c9c1ff5a2e9c90ba8e54c95249",
+            "id": "edecb0366a7163b26d91debde128f2b4",
             "name": "Obtain Schedule for the MLB for a given day. NOTE:...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{month}\/{day}\/schedule{format}",
             "description": "Obtain Schedule for the MLB for a given day. NOTE: The 2012 sample data is an abbreviated season.",
@@ -162,11 +162,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "dffb33186ad36efead511bff19cfb8e3",
+            "id": "9959e93540836c4ee3c4aed4ce2cbdc6",
             "name": "Obtain Daily Summary for the MLB for a given day. ...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{month}\/{day}\/summary{format}",
             "description": "Obtain Daily Summary for the MLB for a given day. NOTE: The 2012 sample data is an abbreviated season.",
@@ -214,11 +214,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "216878d8d09347a8c861163e67b93fde",
+            "id": "4db4d053b434348b7fda47ad194d2e5a",
             "name": "Obtain information concerning all transactions tak...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/{year}\/{month}\/{day}\/transactions{format}",
             "description": "Obtain information concerning all transactions taking place on a given MLB defined day.",
@@ -266,11 +266,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "8b4ff8edfe2e268be27a5625844b5ca0",
+            "id": "3d3d397fc639dfc4087ea1dd3d6bd1a2",
             "name": "Obtain a boxscore for a specific MLB game.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{event_id}\/boxscore{format}",
             "description": "",
@@ -304,11 +304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "d59bdf3e6fa5139d4d61fe8064842ca4",
+            "id": "4dcac0bb6cbdb02f169459fed30d3d59",
             "name": "Obtain a game summary for a specific MLB game.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{event_id}\/summary{format}",
             "description": "",
@@ -342,11 +342,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "f208ce5b24bb2d6dca50c29f44ebed93",
+            "id": "bfd9db5dd1297c98531f992619ff1605",
             "name": "Obtain the pitch types, player statuses, pitch out...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/glossary{format}",
             "description": "Obtain the pitch types, player statuses, pitch outcomes, runner outcomes, game status and postseason game IDs.",
@@ -373,11 +373,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "7e61f4b6d30f1aa07e23d9c3c001ce01",
+            "id": "a1426cb651ff184f194ef10e97ab3b69",
             "name": "Obtain information concerning all current injuries...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/injuries{format}",
             "description": "Obtain information concerning all current injuries across the league.",
@@ -404,11 +404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "4575ed985df505caa6da7f6bed77098e",
+            "id": "0b8355afcae45815cbb94de6e7d34d98",
             "name": "Obtain league depth charts for MLB.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/depth_charts{format}",
             "description": "",
@@ -435,11 +435,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "ca449b9229a29bf1779ec9931574f682",
+            "id": "d462d6dc23c20b1ed8109e42d055e2f8",
             "name": "Obtain list of MLB teams.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/hierarchy{format}",
             "description": "",
@@ -466,11 +466,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "c28d833431a949f4d4e81419ed743a60",
+            "id": "f60c094b842ea1ad6b8f1143901a1b0b",
             "name": "Obtain leaders for a given year.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/leaders\/statistics{format}",
             "description": "",
@@ -511,11 +511,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "d8babfae4d3de3d295783630ec9aa32a",
+            "id": "e2f334479ab3de5a3f2600b938ab6f10",
             "name": "Obtain Schedule for the MLB for a given season. NO...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{year}\/{mlb_season}\/schedule{format}",
             "description": "Obtain Schedule for the MLB for a given season. NOTE: The 2012 sample data is an abbreviated season.",
@@ -556,11 +556,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "318d324434eac61bb9294110821ae4a0",
+            "id": "fb6cc70077985565e3b59ecf5ce98973",
             "name": "Obtain the play-by-play data for a specific MLB ga...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/games\/{event_id}\/pbp{format}",
             "description": "Obtain the play-by-play data for a specific MLB game.",
@@ -594,11 +594,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "dab8027b6f212126fdec30d8fe41fadd",
+            "id": "cab2321e363919558a597fb1e8b6bc4f",
             "name": "Obtain a profile for a given player.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/players\/{player_id}\/profile{format}",
             "description": "",
@@ -632,11 +632,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "fb43481bd4a430d31d717811bdb6ea9a",
+            "id": "99dc62a99210ae775b6ba5e5a31d2be5",
             "name": "Obtain league and division rank for each team, inc...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/rankings{format}",
             "description": "Obtain league and division rank for each team, including post season clinching status (available beginning with 2014 season)",
@@ -677,11 +677,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "67d4a0ff163661df3f5a9e593f7cfd41",
+            "id": "196f32ffcf7fa3875260b94e7cc19dbb",
             "name": "Obtain season splits for MLB -- Not available pre-...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/teams\/{team_id}\/splits{format}",
             "description": "Obtain season splits for MLB -- Not available pre-2015",
@@ -729,11 +729,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "49e1e036763a2975764b0acf92904d1d",
+            "id": "e527d8a036610bf79f9dcf815fa95f8d",
             "name": "Obtain season statistics for MLB",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/teams\/{team_id}\/statistics{format}",
             "description": "",
@@ -781,11 +781,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "210a03da9e60970dc7ef7100f021d7ca",
+            "id": "5de508eb3e439691548aef77e7ebca22",
             "name": "Obtain Series Schedule for the MLB for the postsea...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/series\/{year}\/{mlb_season}\/schedule{format}",
             "description": "Obtain Series Schedule for the MLB for the postseason.",
@@ -826,11 +826,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "fe14f2d6cd50a550eee77e1dc687fc7d",
+            "id": "87699d3173c5d07a944ce7a24d94fd8c",
             "name": "Obtain series statistics for a given series. Pleas...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/series\/{series_id}\/teams\/{team_id}\/statistics{format}",
             "description": "Obtain series statistics for a given series. Please note that this feed will not return data until the 2017 playoffs begin",
@@ -871,11 +871,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "640a04618cc7b296082405037dacd83e",
+            "id": "704004b275e8801d9efa4e52e4dce497",
             "name": "Obtain series summary info for a given series. Ple...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/series\/{series_id}\/summary{format}",
             "description": "Obtain series summary info for a given series. Please note that this feed will not return data until the 2017 playoffs begin",
@@ -909,11 +909,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "2dd6659256cc40ca5ae147726fffc3ea",
+            "id": "db9ac9384c00d5e7fd60b0eb222e5958",
             "name": "Obtain Standings for the MLB for a given season. S...",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/seasontd\/{year}\/{mlb_season}\/standings{format}",
             "description": "Obtain Standings for the MLB for a given season. Standing data is not valid for 2012 as we do not have a full season available.",
@@ -954,11 +954,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "4df699d6d59b89563236d007c5ecb5a6",
+            "id": "8f1537f710c26cac264da64151b5820c",
             "name": "Obtain team depth chart information.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/teams\/{team_id}\/depth_chart{format}",
             "description": "",
@@ -992,11 +992,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "ff19b4fc58f146ea96d2d6acffaf363b",
+            "id": "17dfee5872ae3403577f207c65ebf69d",
             "name": "Obtain team profile information.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/teams\/{team_id}\/profile{format}",
             "description": "",
@@ -1030,11 +1030,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         },
         {
-            "id": "daa00c511cdd1ab3ab1cb8ed7d98877f",
+            "id": "1e1798fb25568037af5b9482dd036a4b",
             "name": "Obtain venue data for the current season.",
             "url": "http:\/\/api.sportradar.com\/\/mlb-t6\/league\/venues{format}",
             "description": "",
@@ -1061,7 +1061,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e3efefedcd1b389eadcb6d3d57c2f552",
+            "collectionId": "f97413198994fc0a0560726d71cb6aff",
             "rawModeData": ""
         }
     ]
